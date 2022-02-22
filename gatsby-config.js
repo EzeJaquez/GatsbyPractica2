@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: "Mi primer sitio gatsby",
+        title: "Escuela de la presión",
         siteUrl: `http://localhost:8000/`,
         description: "Descripcion de mi primer sitio gatsby",
     },
@@ -15,5 +15,6 @@ module.exports = {
             }
         },
         "gatsby-plugin-mdx",
+        "gatsby-transformer-sharp",
     ],
 };

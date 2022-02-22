@@ -11,7 +11,6 @@ const BlogPage = ({data}) => {
             <h2>
               <Link to={`/blog/${node.slug}`}>
                 {node.frontmatter.title}
-                {console.log(node.id)}
               </Link>
             </h2>
             <p>posted: {node.frontmatter.date}</p>

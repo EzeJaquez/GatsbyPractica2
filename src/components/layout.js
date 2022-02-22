@@ -7,6 +7,7 @@ import {
     navLinkItem,
     navLinkText,
     siteTitle,
+    contenido,
 } from './css/layout.module.css'
 
 const Layout = ({pageTitle, children}) => {
@@ -40,7 +41,7 @@ const Layout = ({pageTitle, children}) => {
             </nav>
             <main>
                 <h1 className={heading}>{pageTitle}</h1>
-                {children}
+                <div className={contenido}>{children}</div>
             </main>
 
         </div>

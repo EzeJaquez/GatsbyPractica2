@@ -1,26 +1,51 @@
 .container{
     margin:auto;
-    max-width: 500px;
+    max-width: 100%;
     font-family:sans-serif;
 }
 .heading {
     color: rebeccapurple;
 }
 .nav-links {
+  text-align: right;
+  padding-left: 0px;
   display: flex;
   list-style: none;
-  padding-left: 0;
+  background-color: rgb(172, 118, 216);
+  margin:0 ;
 }
+
 .nav-link-item {
-  padding-right: 2rem;
+  padding-top:15px;
+  padding-bottom:15px ;
+  background-color: rgb(172, 118, 216);
 }
+.nav-link-text:hover{
+  background-color: white;
+  color: rgb(115, 22, 192);
+  border:1px solid rgb(172, 118, 216);
+}
+
 .nav-link-text {
-  color: black;
+  height: 50px; 
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:13.5px;
+  padding-bottom: 15px;
+  color:white;
+  text-decoration: none;
 }
 
 .site-title{
   font-size: 3rem;
-  color: gray;
+  color: rgb(255, 255, 255);
   font-weight: 700;
-  margin: 3rem 0;
+  padding-top: 3.5rem;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  background:rgb(120, 51, 177);
+}
+.contenido,.heading{
+  
+  max-width: 500px;
 }
